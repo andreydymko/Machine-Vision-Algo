@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_toolbar_smart_binarize"
+        android:icon="@drawable/ic_baseline_invert_colors_off_48"
+        android:title="@string/smart_binarization"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_erase_canvas"
+        android:icon="@drawable/ic_baseline_layers_clear_48"
+        android:title="@string/erase_canvas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_built_up"
+        android:title="@string/built_up" />
+    <item
+        android:id="@+id/action_toolbar_erosion"
+        android:title="@string/erosion" />
+    <item
+        android:id="@+id/action_toolbar_closing"
+        android:title="@string/closing" />
+    <item
+        android:id="@+id/action_toolbar_breaking"
+        android:title="@string/breaking" />
+    <item
+        android:id="@+id/action_toolbar_phys_calc"
+        android:icon="@drawable/ic_outline_image_aspect_ratio_48"
+        android:title="@string/calc_phys_props"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_phys_res"
+        android:icon="@drawable/ic_baseline_last_page_48"
+        android:title="@string/see_last_phys_result"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_binarize"
+        android:icon="@drawable/ic_baseline_invert_colors_off_48"
+        android:title="@string/binarize"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_new_binarize_model"
+        android:icon="@drawable/ic_baseline_add_to_photos_48"
+        android:title="@string/new_binariztion_model"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_mark_objects"
+        android:icon="@drawable/ic_baseline_accessible_forward_48"
+        android:title="@string/mark_objects"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_apply_mask"
+        android:icon="@drawable/ic_baseline_blur_on_48"
+        android:title="@string/apply_mask"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_open_image"
+        android:icon="@drawable/ic_baseline_image_search_48"
+        android:title="@string/open_image"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_create_mask"
+        android:icon="@drawable/ic_baseline_library_add_48"
+        android:title="@string/create_new_mask"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_count_holes"
+        android:icon="@drawable/ic_baseline_panorama_fish_eye_24"
+        android:title="@string/count_holes"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_recognize"
+        android:icon="@drawable/ic_baseline_remove_red_eye_24"
+        android:title="@string/recognize"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_save"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="@string/save_template"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toolbar_database"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="@string/check_database"
+        app:showAsAction="never" />
+</menu>

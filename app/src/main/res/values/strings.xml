@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Recoginition1</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+
+    <string name="smart_binarization">Smart Binarization</string>
+    <string name="built_up">Built Up</string>
+    <string name="erosion">Erosion</string>
+    <string name="closing">Closing</string>
+    <string name="breaking">Breaking</string>
+    <string name="save_template">Save Template</string>
+    <string name="erase_canvas">Erase Canvas</string>
+    <string name="calc_phys_props">Calculate Physical Props</string>
+    <string name="see_last_phys_result">Last Physical Props</string>
+    <string name="binarize">Binarize</string>
+    <string name="new_binariztion_model">New Binarization Model</string>
+    <string name="recognize">Recognize</string>
+    <string name="check_database">Check Database</string>
+    <string name="count_holes">Count Holes</string>
+    <string name="apply_mask">Apply Mask</string>
+    <string name="mark_objects">Mark Objects</string>
+    <string name="create_new_mask">Create New Mask</string>
+    <string name="open_image">Open image…</string>
+    <string name="results">Results</string>
+    <string name="size">Size:</string>
+    <string name="alpha">Alpha:</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DrawingFragment.DrawingFragment">
+
+    <com.andreydymko.recoginition1.DrawingFragment.DrawingView
+        android:id="@+id/drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:padding="4dp"
+            android:text="@string/size" />
+
+        <SeekBar
+            android:id="@+id/brush_size_seek_bar"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="200"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:progress="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:padding="4dp"
+            android:text="@string/alpha" />
+
+        <SeekBar
+            android:id="@+id/alpha_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="255"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:progress="255" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group_brush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radio_button_black"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/radio_button_white"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/square_white"
+            android:text="@string/white"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radio_button_black"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/square_black"
+            android:text="@string/black"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</LinearLayout>
